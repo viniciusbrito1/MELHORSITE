@@ -7,17 +7,15 @@ header {
     display:flex;
     justify-content: center;
     flex-direction: column;
+    font-size: small;
 }
 
 body {
     margin: 0px;
     padding-top: 132px;
-    background-color: rgb(102, 102, 156)
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-    .txt {
-    font-size: 24px;
-    color: red
-    }
     #info {
     font-family: Verdana
     }
@@ -31,28 +29,8 @@ body {
         display:flex;
         align-items: center;
     }
-    #op1{
-        padding: 30px;
-        justify-content: center;
-    }
-    #op2{
-        padding: 30px;
-        justify-content: center;
-    }
-    #op3{
-        padding: 30px;
-        justify-content: center;
-    }
-    #op4{
-        padding: 30px;
-        justify-content: center;
-    }
-    #op5{
-        padding: 30px;
-        justify-content: center;
-    }
     .op{
-        justify:
+        justify-content:flex;
         border:25px;
         border-color: black;
     }
