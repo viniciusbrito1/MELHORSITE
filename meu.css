@@ -24,6 +24,7 @@ body {
     #lista{
         color:rgb(61, 61, 116);
         background-color:blue;
+        
     }
     #cima{
         display:flex;
