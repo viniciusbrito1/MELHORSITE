@@ -67,7 +67,7 @@ body {
         align-items: center;
         flex-direction: column;
     }
-    .LoginPopUp:action{
+    .LoginPopUp:target{
         opacity: 1;
     }
 
