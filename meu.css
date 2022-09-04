@@ -23,7 +23,7 @@ body {
     }
     #lista{
         color:rgb(0, 0, 0);
-        background-color:rgb(0, 0, 88);
+        background-color:rgb(255, 255, 255);
         height:20px;
         display:flex;
     }
@@ -34,9 +34,15 @@ body {
     #baixo{
         color:rgb(0, 0, 0);
         font-style: italic;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        background-color: rgb(255, 255, 255);
+        height: 20px;
     }
     .op{
-        padding-left: 120px;
+        border: 3px double black;
+        text-align: center;
+        
     }
     .titulos{
         display: flex;
