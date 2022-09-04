@@ -51,7 +51,9 @@ body {
         font-family:OCR A Std, monospace;
     }
     .subtitle{
-        color:yellow
+        color:yellow;
+        text-decoration:none;
+        
     }
     .subtitle:hover{
         color:blue
