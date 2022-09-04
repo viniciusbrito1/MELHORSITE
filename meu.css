@@ -4,6 +4,9 @@ header {
     top:0;
     left:0;
     right:0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 body {
@@ -18,4 +21,11 @@ body {
     #info {
     font-family: Verdana
     }
-    
+    #lista{
+        color:rgb(61, 61, 116);
+        background-color:blue;
+    }
+    #cima{
+        display:flex;
+        align-items: center;
+    }
