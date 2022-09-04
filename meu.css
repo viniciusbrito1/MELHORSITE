@@ -31,7 +31,6 @@ body {
     }
     .op{
         justify-content:flex;
-        border:25px;
-        border-color: black;
+        justify-content: flex;
     }
     
