@@ -12,7 +12,7 @@ header {
 body {
     margin: 0px;
     padding-top: 132px;
-    background-color: rgb(102, 102, 156)
+    background-color: white;
 }
     .txt {
     font-size: 24px;
@@ -52,7 +52,7 @@ body {
         justify-content: center;
     }
     .op{
-        justify:
+        justify-content: flex;
         border:25px;
         border-color: black;
     }
