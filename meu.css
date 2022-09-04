@@ -50,9 +50,14 @@ body {
         background-image: url(/fundoazul.jpg);
         font-family:OCR A Std, monospace;
     }
-    .subtitle:link{
+    .subtitle{
         color:yellow
     }
+    
+    .subtitle:hover{
+        color:blue
+    }
+    
     .LoginPopUp{
         opacity: 0;
         position:fixed;
