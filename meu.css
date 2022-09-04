@@ -4,6 +4,9 @@ header {
     top:0;
     left:0;
     right:0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 body {
@@ -17,5 +20,18 @@ body {
     }
     #info {
     font-family: Verdana
+    }
+    #lista{
+        color:rgb(0, 0, 0);
+        background-color:rgb(0, 0, 88);
+        height:35px;
+        display:flex;
+    }
+    #cima{
+        display:flex;
+        align-items: center;
+    }
+    .op{
+        
     }
     
