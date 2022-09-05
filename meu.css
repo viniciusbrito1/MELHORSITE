@@ -17,7 +17,7 @@ body {
     padding-top: 132px;
     background-color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image:url(/download2.jpg);
+    background-image:url(./download2.jpg);
 }
     #info {
     font-family: Verdana
@@ -53,13 +53,12 @@ body {
     .titulos{
         display: flex;
         justify-content: center;
-        background-image: url(/fundoazul.jpg);
+        background-image: url(./fundoazul.jpg);
         font-family:OCR A Std, monospace;
     }
     .subtitle{
         color:rgb(0, 0, 0);
     }
-    
     .subtitle:hover{
         color:rebeccapurple;
     }
@@ -72,9 +71,11 @@ body {
         align-items: center;
         flex-direction: column;
        background-color: white;
+       background-image: url(./FotoIME.jpg);
        border: 10px solid black;
     }
     #LoginPopUp:target{
+        color: white;
         left: 30%;
         right: 30%;
         top: 30%;
