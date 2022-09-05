@@ -99,4 +99,20 @@ body {
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
       }
+      .imagens{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+      }
+      #telecom{
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        height: 200px;
+        background-image:url(/imagem\ 4\ real.jpeg);
+        background-size:contain;
+      }
+      #telecom:hover{
+        opacity: 0.5;
+      }
       
