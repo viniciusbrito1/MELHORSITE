@@ -58,6 +58,7 @@ body {
     }
     .subtitle{
         color:rgb(0, 0, 0);
+    }
     
     .subtitle:hover{
         color:rebeccapurple;
@@ -92,3 +93,9 @@ body {
         text-align:justify;
         text-indent:50px;
     }
+    .LoginPopUp {
+        -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+      }
+      
