@@ -57,6 +57,7 @@ body {
         font-family:OCR A Std, monospace;
     }
     .subtitle{
+        text-decoration: none;
         color:rgb(0, 0, 0);
     }
     .subtitle:hover{
@@ -70,7 +71,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-       background-color: white;
+       color:gold;
        background-image: url(./FotoIME.jpg);
        border: 10px solid black;
     }
