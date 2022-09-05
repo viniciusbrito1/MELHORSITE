@@ -85,3 +85,6 @@ body {
         width: 30%;
         border-radius: 8%;
     }
+    .txt{
+        text-align:justify;
+    }
