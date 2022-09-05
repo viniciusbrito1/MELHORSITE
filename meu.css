@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
 header {
     background-color: red;
     position: fixed;
@@ -36,13 +37,18 @@ body {
         font-style: italic;
         display:grid;
         grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-        background-color: rgb(255, 255, 255);
-        height: 20px;
+        background-color: rgb(17, 0, 255);
+        height: 25px;
     }
     .op{
         border: 3px double black;
         text-align: center;
         background-color: blue;
+    }
+    .op:hover{
+        border: 3px double black;
+        text-align: center;
+        background-color: gray;
     }
     .titulos{
         display: flex;
@@ -51,13 +57,10 @@ body {
         font-family:OCR A Std, monospace;
     }
     .subtitle{
-        color:white;
-        text-decoration:none;
-        
-    }
+        color:rgb(0, 0, 0);
     
     .subtitle:hover{
-        color:gold;
+        color:rebeccapurple;
     }
     
     #LoginPopUp{
@@ -87,4 +90,5 @@ body {
     }
     .txt{
         text-align:justify;
+        text-indent:50px;
     }
