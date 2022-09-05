@@ -10,6 +10,7 @@ header {
     flex-direction: column;
     font-size: small;
     color:rgb(0, 0, 0);
+    z-index: 3;
 }
 
 body {
@@ -105,15 +106,40 @@ body {
         display: flex;
         justify-content: center;
       }
-      #telecom{
+      .imgsp{
         position: relative;
         width: 100%;
         display: inline-block;
         height: 200px;
-        background-image:url(/imagem\ 4\ real.jpeg);
         background-size:contain;
       }
-      #telecom:hover{
-        opacity: 0.5;
+      .imgsp:hover{
+        opacity: 0.9;;
       }
-      
+      #telecom{
+        background-image: url(/imagem\ 4\ real.jpeg);
+      }
+      #mec{
+        background-image: url(/mec.jpg);
+      }
+      #mat{
+        background-image: url(/materiais.jpg)         
+      }
+      #comp{
+        background-image: url(/Imagem1.jpeg)
+      }
+      #elet{
+        background-image: url(/imagem\ 5.jpeg)
+      }
+      #quim{
+        background-image: url(/quim.jpg)
+      }
+      #elo{
+        background-image: url(/imagem\ 3.jpeg)
+      }
+      #constru{
+        background-image: url(/imagem\ 2.jpeg)
+      }
+      #carto{
+        background-image: url(/carto.jpg)
+      }
